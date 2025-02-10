@@ -62,4 +62,110 @@ hr{
 .placeholder-color {
     color:black;
   }
+
+/* Media Queries for responsive design */
+@media (min-width: 576px) {
+  .upper {
+    font-size: 0.8em;
+  }
+
+  .img {
+    height: 300px;
+  }
+
+  .header {
+    font-size: 2.5em;
+  }
+
+  .detail {
+    font-size: 1.1em;
+  }
+
+  .btn, #email {
+    width: 400px;
+  }
+
+  hr {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .upper {
+    font-size: 0.9em;
+  }
+
+  .img {
+    height: 320px;
+  }
+
+  .header {
+    font-size: 2.8em;
+  }
+
+  .detail {
+    font-size: 1.2em;
+  }
+
+  .btn, #email {
+    width: 420px;
+  }
+
+  hr {
+    width: 420px;
+  }
+}
+
+@media (min-width: 992px) {
+  .upper {
+    font-size: 1em;
+  }
+
+  .img {
+    height: 340px;
+  }
+
+  .header {
+    font-size: 3em;
+  }
+
+  .detail {
+    font-size: 1.2em;
+  }
+
+  .btn, #email {
+    width: 450px;
+  }
+
+  hr {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .upper {
+    font-size: 1.1em;
+  }
+
+  .img {
+    height: 360px;
+  }
+
+  .header {
+    font-size: 3.2em;
+  }
+
+  .detail {
+    font-size: 1.3em;
+  }
+
+  .btn, #email {
+    width: 470px;
+  }
+
+  hr {
+    width: 470px;
+  }
+}
+
   
